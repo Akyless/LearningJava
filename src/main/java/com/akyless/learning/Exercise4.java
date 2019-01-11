@@ -6,7 +6,7 @@ public class Exercise4 {
 
     public static void main(String[] args) {
 
-        System.out.println("Please input weight on the ground G:");
+        System.out.println("Please input weight on the Earth G:");
         int G = new Scanner(System.in).nextInt();
         System.out.println("G=" +G);
         System.out.println("Weight on the moon M:");
