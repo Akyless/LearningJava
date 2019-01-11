@@ -17,50 +17,25 @@ public static void main(String[] args) {
  System.out.println("w=" +w);
  System.out.println("e=" +e);
 
- System.out.println("max=" + Math.max(q,e));
- System.out.println("min=" + Math.min(q,w));
-
     if((q>w)&(q>e)&(w>e)) {
      System.out.println("max = q; min = e");
-    } else if(q<e) {
-     System.out.println("max = e, min = q");
-    }
-
-    if((q>w)&(q>e)&(w<e)) {
-        System.out.println("max = q; min = w");
-    } else if(q<w) {
-        System.out.println("max = w; min = q");
-    }
-
-    if((q>w)&(q<e)&(e>w)) {
+    } else if((q>w)&(q>e)&(w<e)) {
+     System.out.println("max = q; min = w");
+    } else if((q>w)&(q<e)&(e>w)) {
         System.out.println("max = e; min = w");
-    } else if(q>e) {
-        System.out.println("max = w; min = e");
-    }
-
-    if((q>w)&(q<e)&(e<w)) {
+    } else if((q>w)&(q<e)&(e<w)) {
         System.out.println("max = e; min = q");
-    } else if(e>w) {
+    } else if((q<w)&(w>e)&(e>q)) {
+        System.out.println("max = w; min = q");
+    } else if((q<w)&(w>e)&(e<q)) {
+        System.out.println("max = w; min = e");
+    } else if((q<w)&(w<e)&(q<e)) {
+        System.out.println("max = e; min = q");
+    } else {
+        System.out.println("max = min");
+    }
+    if ((q==w)&(q>e)&(w<e)) {
         System.out.println("max = q; min = e");
     }
-
-    if((q<w)&(w>e)&(e>q)) {
-        System.out.println("max = w; min = q");
-    } else if(w<e) {
-        System.out.println("max = q; min = w");
-    }
-
-    if((q<w)&(w>e)&(e<q)) {
-        System.out.println("max = w; min = e");
-    } else if(q>w) {
-        System.out.println("max = e; min = w");
-    }
-
-    if((q<w)&(w<e)&(q<e)) {
-        System.out.println("max = e; min = q");
-    } else if(q>w) {
-        System.out.println("max = q; min = e");
-    }
-
 }
 }
