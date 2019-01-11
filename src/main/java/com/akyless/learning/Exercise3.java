@@ -1,21 +1,17 @@
 package com.akyless.learning;
 
-import java.util.Scanner;
-
-public class Exercise3 {
-
-public static void main(String[] args) {
-
- System.out.println("Please input q:");
- int q = new Scanner(System.in).nextInt();
- System.out.println("Please input w:");
- int w = new Scanner(System.in).nextInt();
- System.out.println("Please input e:");
- int e = new Scanner(System.in).nextInt();
-
- System.out.println("q=" +q);
- System.out.println("w=" +w);
- System.out.println("e=" +e);
+ import java.util.Scanner;
+ public class Exercise3 {
+ public static void main(String[] args) {
+  System.out.println("Please input q:");
+  int q = new Scanner(System.in).nextInt();
+  System.out.println("Please input w:");
+  int w = new Scanner(System.in).nextInt();
+  System.out.println("Please input e:");
+  int e = new Scanner(System.in).nextInt();
+  System.out.println("q=" +q);
+  System.out.println("w=" +w);
+  System.out.println("e=" +e);
 
     if((q>w)&(q>e)&(w>e)) {
      System.out.println("max = q; min = e");
