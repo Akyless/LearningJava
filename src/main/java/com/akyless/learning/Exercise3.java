@@ -16,24 +16,21 @@ public class Exercise3 {
         System.out.println("e=" + e);
 
         if ((q > w) & (q > e) & (w > e)) {
-            System.out.println("max = q; min = e");
+            System.out.println("max = " + q + " " + "min = " + e);
         } else if ((q > w) & (q > e) & (w < e)) {
-            System.out.println("max = q; min = w");
+            System.out.println("max = " + q + " " + "min = " + w);
         } else if ((q > w) & (q < e) & (e > w)) {
-            System.out.println("max = e; min = w");
+            System.out.println("max = " + e + " " + "min = " + w);
         } else if ((q > w) & (q < e) & (e < w)) {
-            System.out.println("max = e; min = q");
+            System.out.println("max = " + e + " " + "min = " + q);
         } else if ((q < w) & (w > e) & (e > q)) {
-            System.out.println("max = w; min = q");
+            System.out.println("max = " + w + " " + "min = " + q);
         } else if ((q < w) & (w > e) & (e < q)) {
-            System.out.println("max = w; min = e");
+            System.out.println("max = " + w + " " + "min = " + e);
         } else if ((q < w) & (w < e) & (q < e)) {
-            System.out.println("max = e; min = q");
+            System.out.println("max = " + e + " " + "min = " + q);
         } else {
             System.out.println("max = min");
-        }
-        if ((q == w) & (q > e) & (w < e)) {
-            System.out.println("max = q; min = e");
         }
     }
 }
