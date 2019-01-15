@@ -1,6 +1,6 @@
 package com.Sprint2;
 
-public class ExerciseS29 {
+public class Exercise29While {
 
     public static void main(String[] args) {
         int a = 1;
