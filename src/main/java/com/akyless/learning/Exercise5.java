@@ -15,7 +15,7 @@ public class Exercise5 {
             if (a % b == 0) {
                 System.out.println("Число a нацело делится на число b");
             } else {
-                System.out.println("Число a нацело неделится на число b");
+                System.out.println("Число a нацело не делится на число b");
                 System.out.println("a/b= " + (a % b));
             }
         } else {

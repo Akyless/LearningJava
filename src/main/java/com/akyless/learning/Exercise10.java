@@ -15,7 +15,7 @@ public class Exercise10 {
         } else if (a > 96 & a < 123) {
             System.out.println("char b = " + b);
         } else {
-            System.out.println("Это не буква Англиского алфавита!");
+            System.out.println("Это не буква Английского алфавита!");
         }
     }
 }

@@ -8,9 +8,9 @@ public class Exercise4 {
 
         System.out.println("Please input weight on the Earth G:");
         int G = new Scanner(System.in).nextInt();
-        System.out.println("G=" +G);
+        System.out.println("G=" + G);
         System.out.println("Weight on the moon M:");
-        System.out.println("M=" + ((double)(G*17)/100) );
+        System.out.println("M=" + ((double) (G * 17) / 100));
 
     }
 }
