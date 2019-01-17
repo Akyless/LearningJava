@@ -8,7 +8,6 @@ public class ExerciseS28 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please input a");
         int a = scanner.nextInt();
-        int b = (Math.abs(a));
         int max = 0;
         if (a != 0) {
             while (a > 0) {
