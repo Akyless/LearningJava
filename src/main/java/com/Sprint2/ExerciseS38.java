@@ -9,22 +9,20 @@ public class ExerciseS38 {
         int array[] = new int[10];
         boolean positive = true;
         int ch = 0;
+
         for (int i = 0; i < array.length; i++) {
             array[i] = new Random().nextInt(40) + 10;
-            System.out.println(Arrays.toString(array));
-
             if (array[i] > 0) {
                 if (array[i] % 2 == 0) {
                     ch += array[i];
-                    System.out.println(ch);
                 } else {
-                    System.out.println("Это нечетное число!");
+                    System.out.println();
                 }
             } else {
-                System.out.println("Это отрицательное число!");
+                System.out.print("Это отрицательное число!");
             }
-            positive = false;
-            break;
         }
+        System.out.println(Arrays.toString(array));
+        System.out.println(ch);
     }
 }
